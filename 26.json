@@ -1,0 +1,73 @@
+
+{
+    "spider":"./jar/fan.txt;md5;71d846866f2ceb9666ba114e5963983f",
+    "wallpaper":"https://qist.cc/api/api.php",
+    
+    "lives":[
+        {
+            "name":"live",
+            "type":0,
+            "url":"./TV-LIVE.txt",
+            "playerType":1,
+            "ua":"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36",
+            "epg":"https://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+        }
+    ],
+    
+    "sites":[
+        {
+            "key":"黑木耳",
+            "name":"[推薦]黑木耳資源站",
+            "type":3,
+            "api":"csp_XBPQ",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1,
+            "playerType":2,
+            "ext":"./json/heimuer.json",
+            "jar":"./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"
+        },
+        {
+            "key":"華為吧",
+            "name":"[備用]華為吧資源站",
+            "type":0,
+            "api":"https://huawei8.live/api.php/provide/vod/at/xml"
+        },
+        {
+            "key":"無盡",
+            "name":"[備用]無盡資源站",
+            "type":1,
+            "api":"https://api.wujinapi.net/api.php/provide/vod/"
+        },
+        {
+            "key":"快看",
+            "name":"[備用]快看資源站",
+            "type":1,
+            "api":"https://kuaikan-api.com/api.php/provide/vod/from/kuaikan"
+        }
+    ],
+    
+    "parses":[
+        {
+            "name":"黑木耳專用解析接口",
+            "type":3,
+            "url":"https://player.heimuer.tv/index.html?url="
+        },
+        {
+            "name":"華為吧專用解析接口",
+            "type":0,
+            "url":"https://player.hw8.lol/player?url="
+        },
+        {
+            "name":"無盡專用解析接口",
+            "type":1,
+            "url":"https://jx.wujinkk.com/dplayer/?url="
+        },
+        {
+            "name":"快看專用解析接口",
+            "type":1,
+            "url":"https://kkzyplayer.com/player/?url="
+        }
+    ]
+}
