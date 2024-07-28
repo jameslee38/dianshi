@@ -1,4 +1,3 @@
-
 {
   //"spider": "https://8943.kstore.space/custom_spider.jar",
   "spider": "https://8943.kstore.space/lsq1.jar",
@@ -105,6 +104,13 @@
        "api": "./lsq_open.js",
        "ext": "https://8943.kstore.space/4kav.js"
    },
+ /**   {
+       "key": "bulei",
+       "name": "4K 布蕾",
+       "type": 3,
+       "api": "csp_Wexhuaruitv",
+      "jar": "https://8943.kstore.space/wex_mod.jar"
+   }, **/
     {
        "key": "lurenjia",
        "name": "4K 路人甲",
@@ -180,6 +186,13 @@
        "type": 3,
        "api": "./littleApple_open.js"
    },
+    {
+      "key": "stripchat_live",
+      "name": "jav直播",
+      "type": 3,
+      "api": "./lsq_open.js",
+      "ext": "https://8943.kstore.space/stripchat_live.js"
+    },
    /** {
       "key": "javsb",
       "name": "javsb",
