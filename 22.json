@@ -45,6 +45,18 @@
       "jar": "./jar/spider.jar;md5;cdcfe91718e8ab472857bdf8d3febb95"
     },
     {
+      "key": "朱总麒麟",
+      "name": "🐧无广HDR-4K",
+      "playerType": 1,
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "playurl": "https://ldhz.li0580.com//api/jsonindex.php/?key=lOYmMQvSbYBUWZjMDC&url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": " http://tx.jingyang.design:1102/api.php/app/"
+    },
+    {
       "key": "csp_XYQHikerAL_云盘资源",
       "name": "📀云盘(搜索)|XYQ",
       "type": 3,
